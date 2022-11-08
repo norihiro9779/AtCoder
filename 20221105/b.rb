@@ -8,6 +8,8 @@ m.times do
   graph[b].push a
 end
 
+puts graph
+
 (1..n).to_a.each do |i|
   if graph[i]
     # puts [graph[i].length, graph[i].sort].flatten.join(' ')
@@ -15,3 +17,4 @@ end
     # puts 0
   end
 end
+

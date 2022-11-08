@@ -24,3 +24,7 @@ N = gets.to_i
 a, b = N.times.map{gets.split.map(&:to_i)}.transpose
 
 ```
+
+## 出力方法
+puts [2, 3, 3, 4].join(' ')
+=> 2 3 3 4
